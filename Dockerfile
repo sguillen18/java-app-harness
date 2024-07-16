@@ -11,4 +11,4 @@ COPY HelloWorld.java /app
 RUN javac simple.java
 
 # Specify the command to run the Java program
-CMD ["java", "HelloWorld"]
+CMD ["java"]
