@@ -8,7 +8,7 @@ WORKDIR /app
 COPY HelloWorld.java /app
 
 # Compile the Java source file
-RUN javac HelloWorld.java
+RUN javac simple.java
 
 # Specify the command to run the Java program
 CMD ["java", "HelloWorld"]
