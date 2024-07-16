@@ -5,7 +5,7 @@ FROM openjdk:11-jdk-slim
 WORKDIR /app
 
 # Copy the Java source file to the working directory
-COPY HelloWorld.java /app
+COPY simple.java /app
 
 # Compile the Java source file
 RUN javac simple.java
